@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+<?xml version="1.0.0"?>
 <extensionset name="z-index development">
     <extension
             targetplatformversion="^3\.([4-9]|([1-9][0-9]))"
             name="mapX (discontinued)"
-            version="3.0 rev 302"
+            version="3.0.0"
             type="component"
             client="administrator"
             element="com_xmap"
@@ -12,7 +12,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - AcyMailing"
-            version="rev 18"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_acymailing"
@@ -21,7 +21,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - AdsManager"
-            version="rev 28"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_adsmanager"
@@ -30,7 +30,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - Akeeba Subscriptions"
-            version="rev 11"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_akeebasubs"
@@ -39,7 +39,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - Gary&#xB4;s Cookbook"
-            version="rev 8"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_garyscookbook"
@@ -48,7 +48,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - jDownloads"
-            version="rev 8"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_jdownloads"
@@ -57,7 +57,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - JEvents"
-            version="rev 16"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_jevents"
@@ -66,7 +66,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - K2"
-            version="rev 24"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_k2"
@@ -75,7 +75,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - Kunena"
-            version="rev 9"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_kunena"
@@ -84,7 +84,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - Mosets Tree"
-            version="rev 3"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_mtree"
@@ -93,7 +93,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - Phoca Download"
-            version="rev 34"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_phocadownload"
@@ -102,7 +102,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - Phoca Gallery"
-            version="rev 27"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_phocagallery"
@@ -111,7 +111,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - SimpleCalendar"
-            version="rev 5"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_simplecalendar"
@@ -120,7 +120,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - SobiPro"
-            version="rev 4"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_sobipro"
@@ -129,7 +129,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - Tags"
-            version="rev 17"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_tags"
@@ -138,7 +138,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - VirtueMart"
-            version="rev 6"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_virtuemart"
@@ -147,7 +147,7 @@
     <extension
             targetplatformversion="^3\."
             name="Xmap - Weblinks"
-            version="rev 14"
+            version="1.0.0"
             type="plugin"
             folder="xmap"
             element="com_weblinks"
@@ -156,7 +156,7 @@
     <extension
             targetplatformversion="^3\."
             name="Member Map"
-            version="rev 25"
+            version="1.0.0"
             type="plugin"
             folder="system"
             element="membermap"
@@ -165,7 +165,7 @@
     <extension
             targetplatformversion="^3\."
             name="Simple Switch User"
-            version="rev 16"
+            version="1.0.0"
             type="plugin"
             folder="system"
             element="simple_switch_user"
@@ -174,7 +174,7 @@
     <extension
             targetplatformversion="^3\."
             name="Single Login"
-            version="rev 2"
+            version="1.0.0"
             type="plugin"
             folder="system"
             element="single_login"
@@ -183,7 +183,7 @@
     <extension
             targetplatformversion="^3\."
             name="Google Analytics"
-            version="rev 17"
+            version="1.0.0"
             type="plugin"
             folder="system"
             element="google_analytics"
@@ -192,7 +192,7 @@
     <extension
             targetplatformversion="^3\."
             name="twitch.tv"
-            version="rev 14"
+            version="1.0.0"
             type="plugin"
             folder="content"
             element="twitch"
@@ -201,7 +201,7 @@
     <extension
             targetplatformversion="^3\."
             name="Kunena - Battlefield Signature"
-            version="rev 8"
+            version="1.0.0"
             type="plugin"
             folder="kunena"
             element="battlefield_signature"
@@ -210,7 +210,7 @@
     <extension
             targetplatformversion="^3\."
             name="Remote"
-            version="rev 12"
+            version="1.0.0"
             type="plugin"
             folder="system"
             element="remote"
@@ -219,7 +219,7 @@
     <extension
             targetplatformversion="^3\."
             name="Server Side Google Analytics"
-            version="rev 10"
+            version="1.0.0"
             type="plugin"
             folder="system"
             element="ssga"
@@ -228,7 +228,7 @@
     <extension
             targetplatformversion="^3\."
             name="PayPal Quick Icon"
-            version="rev 6"
+            version="1.0.0"
             type="plugin"
             folder="quickicon"
             element="paypal"
@@ -237,7 +237,7 @@
     <extension
             targetplatformversion="^3\."
             name="Template - pwniez"
-            version="rev 7"
+            version="1.0.0"
             type="template"
             element="pwniez"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-template-pwniez/master/updatestream.xml"
@@ -245,7 +245,7 @@
     <extension
             targetplatformversion="^3\."
             name="SSL (redirector)"
-            version="rev 3"
+            version="1.0.0"
             type="plugin"
             folder="system"
             element="ssl"
@@ -254,7 +254,7 @@
     <extension
             targetplatformversion="^3\."
             name="Teamspeak 3"
-            version="rev 25"
+            version="1.0.0"
             type="module"
             element="mod_teamspeak3"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-teamspeak-3/master/updatestream.xml"
@@ -262,7 +262,7 @@
     <extension
             targetplatformversion="^3\."
             name="Phoca Download - Changelog"
-            version="rev 2"
+            version="1.0.0"
             type="module"
             element="mod_phocadownload_changelog"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-phoca-download-changelog/master/updatestream.xml"
@@ -270,7 +270,7 @@
     <extension
             targetplatformversion="^3\."
             name="WoW Configuration"
-            version="rev 28"
+            version="1.0.0"
             type="plugin"
             folder="system"
             element="wow"
@@ -279,7 +279,7 @@
     <extension
             targetplatformversion="^3\."
             name="WoW Armory Guild News"
-            version="rev 62"
+            version="1.0.0"
             type="module"
             element="mod_wow_armory_guild_news"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-plugin-system-wow-armory-guild-news/master/updatestream.xml"
@@ -287,7 +287,7 @@
     <extension
             targetplatformversion="^3\."
             name="WoW latest Guild Achievements"
-            version="rev 38"
+            version="1.0.0"
             type="module"
             element="mod_wow_latest_guild_achievements"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-plugin-system-wow-latest-guild-achievements/master/updatestream.xml"
@@ -295,7 +295,7 @@
     <extension
             targetplatformversion="^3\."
             name="WoW Guild Members"
-            version="rev 52"
+            version="1.0.0"
             type="module"
             element="mod_wow_guild_members"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-plugin-system-wow-guild-members/master/updatestream.xml"
@@ -303,7 +303,7 @@
     <extension
             targetplatformversion="^3\."
             name="WoW Guild Rank"
-            version="rev 13"
+            version="1.0.0"
             type="module"
             element="mod_wow_guild_rank"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-guild-rank/master/updatestream.xml"
@@ -311,7 +311,7 @@
     <extension
             targetplatformversion="^3\."
             name="WoW Top Weekly Contributors"
-            version="rev 27"
+            version="1.0.0"
             type="module"
             element="mod_wow_top_weekly_contributors"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-plugin-system-wow-top-weekly-contributors/master/updatestream.xml"
@@ -319,7 +319,7 @@
     <extension
             targetplatformversion="^3\."
             name="WoW Guild Tabard"
-            version="rev 13"
+            version="1.0.0"
             type="module"
             element="mod_wow_guild_tabard"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-plugin-system-wow-guild-tabard/master/updatestream.xml"
@@ -327,7 +327,7 @@
     <extension
             targetplatformversion="^3\."
             name="Warcraft Logs"
-            version="rev 1"
+            version="1.0.0"
             type="module"
             element="mod_wow_warcraftlogs"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-warcraft-logs/master/updatestream.xml"
@@ -335,7 +335,7 @@
     <extension
             targetplatformversion="^3\."
             name="World of Logs"
-            version="rev 48"
+            version="1.0.0"
             type="module"
             element="mod_world_of_logs"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-plugin-system-world-of-logs-latest-raids/master/updatestream.xml"
@@ -343,7 +343,7 @@
     <extension
             targetplatformversion="^3\."
             name="WoW Raid Progress - Legion"
-            version="rev 7"
+            version="1.0.0"
             type="module"
             element="mod_wow_raid_progress_legion"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-raid-progress-legion/master/updatestream.xml"
@@ -351,7 +351,7 @@
     <extension
             targetplatformversion="^3\."
             name="WoW Raid Progress - Warlords of Draenor"
-            version="rev 25"
+            version="1.0.0"
             type="module"
             element="mod_wow_raid_progress_wod"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-raid-progress-warlords-of-draenor/master/updatestream.xml"
@@ -359,7 +359,7 @@
     <extension
             targetplatformversion="^3\."
             name="WoW Raid Progress - Mists of Pandaria"
-            version="rev 35"
+            version="1.0.0"
             type="module"
             element="mod_wow_raid_progress_mop"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-raid-progress-mists-of-pandaria/master/updatestream.xml"
@@ -367,7 +367,7 @@
     <extension
             targetplatformversion="^3\."
             name="WoW Raid Progress - Cataclysm"
-            version="rev 20"
+            version="1.0.0"
             type="module"
             element="mod_wow_raid_progress_cata"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-raid-progress-cataclysm/master/updatestream.xml"
@@ -375,7 +375,7 @@
     <extension
             targetplatformversion="^3\."
             name="WoW Recruitment"
-            version="rev 19"
+            version="1.0.0"
             type="module"
             element="mod_wow_recruitment"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-recruitment/master/updatestream.xml"
@@ -383,7 +383,7 @@
     <extension
             targetplatformversion="^3\."
             name="Wow Blue Tracker"
-            version="rev 16"
+            version="1.0.0"
             type="module"
             element="mod_wow_blue_tracker"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-blue-tracker/master/updatestream.xml"
@@ -391,7 +391,7 @@
     <extension
             targetplatformversion="^3\."
             name="Kunena - WoW Avatar"
-            version="rev 27"
+            version="1.0.0"
             type="plugin"
             folder="kunena"
             element="wow_avatar"
@@ -400,7 +400,7 @@
     <extension
             targetplatformversion="^3\."
             name="DarkTip"
-            version="rev 31"
+            version="1.0.0"
             type="plugin"
             folder="system"
             element="darktip"
@@ -409,7 +409,7 @@
     <extension
             targetplatformversion="^3\."
             name="Wowhead"
-            version="rev 24"
+            version="1.0.0"
             type="plugin"
             folder="system"
             element="wowhead"
@@ -418,7 +418,7 @@
     <extension
             targetplatformversion="^3\."
             name="WoWDB"
-            version="rev 22"
+            version="1.0.0"
             type="plugin"
             folder="system"
             element="wowdb"
@@ -427,7 +427,7 @@
     <extension
             targetplatformversion="^3\."
             name="buffed"
-            version="rev 15"
+            version="1.0.0"
             type="plugin"
             folder="system"
             element="buffed"
@@ -436,7 +436,7 @@
     <extension
             targetplatformversion="^3\."
             name="JComments - WoW Avatar"
-            version="rev 11"
+            version="1.0.0"
             type="plugin"
             folder="jcomments"
             element="wow_avatar"
