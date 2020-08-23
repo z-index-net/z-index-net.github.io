@@ -1,4 +1,4 @@
-<?xml version="1.0.0"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <extensionset name="z-index development">
     <extension
             targetplatformversion="^3\.([4-9]|([1-9][0-9]))"
@@ -274,7 +274,7 @@
             type="plugin"
             folder="system"
             element="wow"
-            detailsurl="https://github.com/z-index-net/joomla-plugin-system-wow/master/updatestream.xml"
+            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-plugin-system-wow/master/updatestream.xml"
             infourl="https://github.com/z-index-net/joomla-plugin-system-wow"/>
     <extension
             targetplatformversion="^3\."
@@ -282,7 +282,7 @@
             version="1.0.0"
             type="module"
             element="mod_wow_armory_guild_news"
-            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-plugin-system-wow-armory-guild-news/master/updatestream.xml"
+            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-armory-guild-news/master/updatestream.xml"
             infourl="https://github.com/z-index-net/joomla-module-wow-armory-guild-news"/>
     <extension
             targetplatformversion="^3\."
@@ -290,7 +290,7 @@
             version="1.0.0"
             type="module"
             element="mod_wow_latest_guild_achievements"
-            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-plugin-system-wow-latest-guild-achievements/master/updatestream.xml"
+            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-latest-guild-achievements/master/updatestream.xml"
             infourl="https://github.com/z-index-net/joomla-module-wow-latest-guild-achievements"/>
     <extension
             targetplatformversion="^3\."
@@ -298,7 +298,7 @@
             version="1.0.0"
             type="module"
             element="mod_wow_guild_members"
-            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-plugin-system-wow-guild-members/master/updatestream.xml"
+            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-guild-members/master/updatestream.xml"
             infourl="https://github.com/z-index-net/joomla-module-wow-guild-members"/>
     <extension
             targetplatformversion="^3\."
@@ -314,7 +314,7 @@
             version="1.0.0"
             type="module"
             element="mod_wow_top_weekly_contributors"
-            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-plugin-system-wow-top-weekly-contributors/master/updatestream.xml"
+            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-top-weekly-contributors/master/updatestream.xml"
             infourl="https://github.com/z-index-net/joomla-module-wow-top-weekly-contributors"/>
     <extension
             targetplatformversion="^3\."
@@ -322,7 +322,7 @@
             version="1.0.0"
             type="module"
             element="mod_wow_guild_tabard"
-            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-plugin-system-wow-guild-tabard/master/updatestream.xml"
+            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-guild-tabard/master/updatestream.xml"
             infourl="https://github.com/z-index-net/joomla-module-wow-guild-tabard"/>
     <extension
             targetplatformversion="^3\."
@@ -354,8 +354,8 @@
             version="1.0.0"
             type="module"
             element="mod_wow_raid_progress_wod"
-            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-raid-progress-warlords-of-draenor/master/updatestream.xml"
-            infourl="https://github.com/z-index-net/joomla-module-wow-raid-progress-warlords-of-draenor"/>
+            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-raid-progress-wod/master/updatestream.xml"
+            infourl="https://github.com/z-index-net/joomla-module-wow-raid-progress-wod"/>
     <extension
             targetplatformversion="^3\."
             name="WoW Raid Progress - Mists of Pandaria"
@@ -372,6 +372,30 @@
             element="mod_wow_raid_progress_cata"
             detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-raid-progress-cataclysm/master/updatestream.xml"
             infourl="https://github.com/z-index-net/joomla-module-wow-raid-progress-cataclysm"/>
+    <extension
+            targetplatformversion="^3\."
+            name="WoW Raid Progress - Classic"
+            version="1.0.0"
+            type="module"
+            element="mod_wow_raid_progress_classic"
+            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-raid-progress-classic/master/updatestream.xml"
+            infourl="https://github.com/z-index-net/joomla-module-wow-raid-progress-classic"/>
+    <extension
+            targetplatformversion="^3\."
+            name="WoW Raid Progress - Burning Crusade"
+            version="1.0.0"
+            type="module"
+            element="mod_wow_raid_progress_bc"
+            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-raid-progress-bc/master/updatestream.xml"
+            infourl="https://github.com/z-index-net/joomla-module-wow-raid-progress-bc"/>
+    <extension
+            targetplatformversion="^3\."
+            name="WoW Raid Progress - Wrath of the Lich King"
+            version="1.0.0"
+            type="module"
+            element="mod_wow_raid_progress_wotlk"
+            detailsurl="https://raw.githubusercontent.com/z-index-net/joomla-module-wow-raid-progress-wotlk/master/updatestream.xml"
+            infourl="https://github.com/z-index-net/joomla-module-wow-raid-progress-wotlk"/>
     <extension
             targetplatformversion="^3\."
             name="WoW Recruitment"
