@@ -23,27 +23,42 @@ foreach ($json as $repo) {
         $updateStream = file_get_contents($detailsUrl, false, $context);
         $updateStreamXml = simplexml_load_string($updateStream);
 
-
-        $client = $updateStreamXml->xpath('/updates/client');
-        $folder = $updateStreamXml->xpath('/updates/folder');
+        $name = $updateStreamXml->xpath('/updates/update/name');
+        $type = $updateStreamXml->xpath('/updates/update/type');
+        $version = $updateStreamXml->xpath('/updates/update/version');
+        $client = $updateStreamXml->xpath('/updates/update/client');
+        $folder = $updateStreamXml->xpath('/updates/update/folder');
+        $element = $updateStreamXml->xpath('/updates/update/element');
 
         $targetPlatform = $updateStreamXml->xpath('/updates/update/targetplatform')[0]->attributes()['version'];
 
         $extension = $xml->addChild('extension');
-        $extension->addAttribute('name', (string)$updateStreamXml->xpath('/updates/update/name')[0]);
         $extension->addAttribute('targetplatformversion', (string)$targetPlatform);
-        $extension->addAttribute('version', (string)$updateStreamXml->xpath('/updates/update/version')[0]);
-        $extension->addAttribute('type', (string)$updateStreamXml->xpath('/updates/update/type')[0]);
+
+        if (!empty($name)) {
+            $extension->addAttribute('name', (string)$name[0]);
+        }
+
+        if (!empty($version)) {
+            $extension->addAttribute('version', (string)$version[0]);
+        }
 
         if (!empty($client)) {
             $extension->addAttribute('client', (string)$client[0]);
+        }
+
+        if (!empty($type)) {
+            $extension->addAttribute('type', (string)$type[0]);
         }
 
         if (!empty($folder)) {
             $extension->addAttribute('folder', (string)$folder[0]);
         }
 
-        $extension->addAttribute('element', (string)$updateStreamXml->xpath('/updates/update/element')[0]);
+        if (!empty($element)) {
+            $extension->addAttribute('element', (string)$element[0]);
+        }
+
         $extension->addAttribute('infourl', $repo->html_url);
         $extension->addAttribute('detailsurl', $detailsUrl);
     }
