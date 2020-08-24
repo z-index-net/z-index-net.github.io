@@ -67,7 +67,7 @@ foreach ($json as $repo) {
 $dom = dom_import_simplexml($xml)->ownerDocument;
 $dom->formatOutput = true;
 
-file_put_contents('en/extensions.xml', $dom->saveXML());
+file_put_contents('docs/en/extensions.xml', $dom->saveXML());
 
 
 
